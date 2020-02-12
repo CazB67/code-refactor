@@ -1,0 +1,153 @@
+/* This applies to all sections */ 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header nav, article, aside {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav, #services {
+    float: right;
+}
+
+header, a, article, aside, section {
+    color: #ffffff;
+}
+
+header {
+    padding: 20px;
+    background-color: #2a607c;
+}
+
+/* "Horiseon" heading */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Applies to letters 'seo' in Horiseon heading */
+span {
+    color: #d9dcd6;
+}
+
+/* Header unordered list */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+ /* Header unorderlist separated to float */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Link style */
+a {
+    text-decoration: none;
+}
+
+/* Box where large marketing meeting image lies */
+figure {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Box for search-engine-optimization, online-reputation-management and social-media-marketing content to fit into*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Refers to three services offered*/
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+/*main images*/
+article img {
+    max-height: 200px;
+}
+
+/*There are three h2 headings all in main */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 16px;
+}
+
+/* Floating "search-image-optimisation" and "social-media-marketing" images and associated paragraphs left */
+.services {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Floating "online-reputation-management" image and associated paragraph right*/
+#services {
+    margin-left: 25px;
+}
+
+/*benefits*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+/*benefits headers*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*describing benefits*/
+section {
+    margin-bottom: 32px;
+}
+
+/* icons related to benefits aside */
+.benefits-icons {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+/*copyright information*/
+h4 {
+    font-size: 20px;
+}
