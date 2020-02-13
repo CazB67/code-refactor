@@ -9,7 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-header nav, article, aside {
+nav, article, aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -17,7 +17,7 @@ header, footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header nav, #services {
+nav, #services {
     float: right;
 }
 
@@ -30,8 +30,8 @@ header {
     background-color: #2a607c;
 }
 
-/* "Horiseon" heading */
-header h1 {
+/* "Horiseon" header heading */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -42,7 +42,7 @@ span {
 }
 
 /* Header unordered list */
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     font-size: 20px;
@@ -50,7 +50,7 @@ header nav {
 }
 
  /* Header unorderlist separated to float */
-header nav ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -86,7 +86,7 @@ article {
 }
 
 /*main images*/
-article img {
+.services, #services {
     max-height: 200px;
 }
 
